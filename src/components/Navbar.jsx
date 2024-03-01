@@ -93,7 +93,7 @@ const Navbar = () => {
               >
                 <a
                   href={publicUrls.resume}
-                  download="Daniel_Rai_Resume.pdf"
+                  download="Daniel-Everest-Resume.pdf"
                   target="_blank"
                 >
                   Resume

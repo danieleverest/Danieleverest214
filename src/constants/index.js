@@ -29,7 +29,13 @@ import {
   linkedin,
   github,
   telegram,
-  skype
+  skype,
+  carrent,
+  jobit,
+  tripguide,
+  threejs,
+  figma,
+  docker,
 } from "../assets";
 
 const navigationPaths = {
@@ -126,6 +132,22 @@ const technologies = [
     name: "Git",
     icon: git,
   },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  // {
+  //   name: "Threejs",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "Figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "Docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -302,6 +324,69 @@ const projects = [
     hosted_link:
       "https://play.google.com/store/apps/details?id=com.roll&hl=en_GB",
   },
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Job IT",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Trip Guide",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/",
+  },
 ];
 
 const personalInfo = {
@@ -309,7 +394,7 @@ const personalInfo = {
   fullName: "Daniel Everest",
   email: "danieleverest0214@gmail.com",
   role: "Senior Frontend Web Developer",
-  about: `I'm a skilled software developer with experience in TypeScript and
+  about: `I'm a skilled web developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js, Next.js,
   Node.js etc. I'm a quick learner and collaborate closely with clients to
   create efficient, scalable, and user-friendly solutions that solve
@@ -322,7 +407,7 @@ const personalInfo = {
 
 const publicUrls = {
   resume:
-    "https://drive.google.com/file/d/1MPMnGgyvvEhzHXGR_ywW3Qvm0kUrwRyj/view?usp=drive_link",
+    "https://drive.google.com/file/d/1K1sE3S1Knxm__K0-STEXgPiesnf79pTl/view?usp=sharing",
   socialProfiles: {
     github: {
       title: "github",

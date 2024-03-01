@@ -25,6 +25,11 @@ import angular from "./tech/angular.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import docker from "./tech/docker.png";
+import figma from "./tech/figma.png";
+import threejs from "./tech/threejs.svg";
+
+
 import oaknetwork from "./company/oaknetwork.jpg";
 import ryan from "./company/ryan.jpg";
 import outcraftagency from "./company/outcraftagency.jpg";
@@ -36,6 +41,10 @@ import zealWeb from "./projects/zealWeb.png";
 import zealApp from "./projects/zealApp.png";
 import rollWeb from "./projects/rollWeb.png";
 import rollApp from "./projects/rollApp.png";
+
+import carrent from "./projects/carrent.png";
+import jobit from "./projects/jobit.png";
+import tripguide from "./projects/tripguide.png";
 
 export {
   logo,
@@ -64,6 +73,10 @@ export {
   redux,
   tailwind,
   typescript,
+  docker,
+  figma,
+  threejs,
+  // 
   oaknetwork,
   ryan,
   outcraftagency,
@@ -74,4 +87,7 @@ export {
   zealApp,
   rollWeb,
   rollApp,
+  carrent,
+  jobit,
+  tripguide,
 };

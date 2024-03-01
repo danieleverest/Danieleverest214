@@ -3,6 +3,8 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
 import { personalInfo } from "../constants";
+import logo from "/signature.png";
+
 
 const Hero = () => {
   return (
@@ -18,7 +20,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm{" "}
-            <span className="text-electric-purple">{personalInfo.name}</span>
+            <span className="text-electric-purple">{/* {personalInfo.name} */}<img src={logo} /></span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             Innovative {personalInfo.role}, <br className="sm:block hidden" />
