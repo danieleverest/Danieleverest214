@@ -1,6 +1,7 @@
 # 3D Portfolio Website
 
-![3D Portfolio](https://github.com/danieleverst/Danieleverest214/assets/50835817/78d803d6-aaaf-492c-bf2a-30881e32bcf0)
+![3D Portfolio](https://drive.google.com/file/d/1M4Gksjq6jGshyDJxfgk10-XgiF9bgoOe/view?usp=sharing)
+
 
 Welcome to my captivating 3D portfolio website project! Harnessing the power of cutting-edge technologies, I've crafted a mesmerizing and responsive portfolio site that's not just visually stunning but also incredibly easy for anyone to personalize.
 
