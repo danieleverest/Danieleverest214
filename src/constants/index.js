@@ -33,9 +33,9 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
-  figma,
-  docker,
+  // threejs,
+  // figma,
+  // docker,
 } from "../assets";
 
 const navigationPaths = {
@@ -157,12 +157,15 @@ const experiences = [
     company_website: "https://oak.tech/",
     icon: oaknetwork,
     iconBg: "#E6DEDD",
-    date: "Apr 2021 - Dec 2023",
+    date: "Apr 2022 - Dec 2023",
     points: [
-      "Developing and maintaining web and mobile applications using React.js, React-native and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Contributed to the conception, development, and testing of technology solutions tailored to meet business needs and objectives.",
+      "Designed and developed multiple front-end and back-end applications including an e-commerce platform utilizing React, Angular.js, Node.js, Spring Boot, GraphQL, and Docker.",
+      "Contributed to migrating applications to microservices architecture, enhancing scalability and performance.",
+      "Improved code quality by migrating the legacy codebase to TypeScript.",
+      "Developed interactive 3D graphics feature using Three.js, boosting user engagement.",
+      "Optimized platform performance through load balancing and Redis caching techniques, resulting in an impressive 70% enhancement in speed and responsiveness metrics.",
+      "Proficient in Agile methodologies to ensure efficient project management, collaboration, and iterative development."
     ],
   },
   {
@@ -173,10 +176,11 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2020 - Mar 2021",
     points: [
-      "Developed a groundbreaking banking product for a Singapore-based firm, improved transaction management.",
-      "Developed a dynamic dashboard for efficient transaction management, resulting in a 30% increase in productivity.",
-      "Optimized frontend performance by achieving 20% reduction in page loading time and make it responsive.",
-      "Created a transaction report generator, reducing report generation time by 50% and enhancing data analysis.",
+      "Developed feature-rich e-commerce platforms using React, Spring Boot, and Node.js.",
+      "Created responsive user interfaces with React, delivering intuitive and engaging learning experiences for users on multiple devices, resulting in a significant increase in user engagement.",
+      "Prototyped new data processing capabilities for system integration.",
+      "Optimized page load speeds for improved performance.",
+      "Transformed website design and functionality through the seamless integration of responsive frameworks and interactive components.",
     ],
   },
   {
@@ -187,10 +191,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Apr 2019 - Feb 2020",
     points: [
-      "Contributed to the development of a Test Engine Application, empowering users to create and conduct tests seamlessly.",
-      "Built three essential modules: Teacher, Student, and Admin, ensuring comprehensive functionality for all user roles.",
-      "Collaborated effectively with the development team, actively participating in code reviews and resolving technical challenges.",
-      "Demonstrated strong problem-solving skills, consistently delivering high-quality code and meeting project deadlines.",
+      "Translated Figma designs into pixel-perfect web applications using HTML5, CSS3, Material UI, and Bootstrap.",
+      "Spearheaded the implementation of a new front-end development system, reducing development time and enhancing performance.",
+      "Utilizing React, Redux, Tailwind CSS, and D3.js, developed data analysis charts and diagrams for an E-commerce platform, enhancing data visualization and insights.",
+      "Improved code quality through TypeScript migration and automated testing."
     ],
   }
 ];
@@ -402,7 +406,7 @@ const personalInfo = {
   projectsIntro: `Following projects showcases my skills and experience through
   real-world examples of my work. Each project is briefly described with
   live demos. It reflects my ability to solve complex problems, work
-  with different technologies, and manage projects effectively.`,
+  with different technologies, and manage projects effectively.`
 };
 
 const publicUrls = {
