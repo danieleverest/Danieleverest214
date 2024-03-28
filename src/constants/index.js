@@ -48,11 +48,11 @@ const navigationPaths = {
 export const navLinks = [
   {
     id: navigationPaths.about,
-    title: "About",
+    title: "Overview",
   },
   {
     id: navigationPaths.work,
-    title: "Work",
+    title: "Projects",
   },
   {
     id: navigationPaths.contact,
@@ -397,7 +397,7 @@ const personalInfo = {
   name: "Daniel",
   fullName: "Daniel Everest",
   email: "danieleverest0214@gmail.com",
-  role: "Senior Frontend Web Developer",
+  role: "Experienced Full Stack Developer",
   about: `I'm a skilled web developer with experience in TypeScript and
   JavaScript, and expertise in frameworks like React.Js, Next.js,
   Node.js etc. I'm a quick learner and collaborate closely with clients to

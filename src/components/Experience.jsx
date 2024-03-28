@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import {
   VerticalTimeline,
@@ -14,7 +14,7 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
+        background: "rgb(59, 77, 113)",
         color: "#fff",
       }}
       contentArrowStyle={{ borderRight: "7px solid #232631" }}
@@ -22,6 +22,7 @@ const ExperienceCard = ({ experience }) => {
         <a
           href={experience.company_website}
           target="_blank"
+          rel="noreferrer"
           className="flex justify-center items-center w-full h-full"
         >
           <img

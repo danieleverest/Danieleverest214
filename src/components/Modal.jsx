@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 
 const Modal = ({ title, message, buttonText, isError, setIsModalVisible }) => {

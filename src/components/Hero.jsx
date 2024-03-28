@@ -1,16 +1,18 @@
-import React from "react";
+// import React from "react";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 import { motion } from "framer-motion";
-import { personalInfo } from "../constants";
+import { slideIn } from "../utils/motion";
+// import { personalInfo } from "../constants";
 import logo from "/signature.png";
+import { EarthCanvas } from "./canvas";
 
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`${styles.paddingX} absolute top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 inset-0`}
+        className={`${styles.paddingX} absolute top-[120px] max-w-8xl mx-auto flex flex-row items-start gap-5 inset-0`}
       >
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-electric-purple" />
@@ -19,15 +21,25 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm{" "}
+            Hi, I&apos;m
             <span className="text-electric-purple">{/* {personalInfo.name} */}<img src={logo} /></span>
           </h1>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
-            Innovative {personalInfo.role}, <br className="sm:block hidden" />
-            building web and mobile applications
+            Master of Code: Experienced Full Stack Developer, <br className="sm:block hidden" />
+            | Passionate about Crafting High-Quality Solutions
+
           </p>
         </div>
       </div>
+
+
+      {/* <EarthCanvas /> */}
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[50px] h-[50px]"
+      >
+        <EarthCanvas />
+      </motion.div>
 
       {/* <ComputersCanvas /> */}
 

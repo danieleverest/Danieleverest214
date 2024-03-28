@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => {
         variants={fadeIn("right", "spring", index * 0.5, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
-        <div className="bg-tertiary rounded-[20px] min-h-[280px] py-5 px-12 flex flex-col justify-evenly items-center">
+        <div className="bg-cardbox rounded-[20px] min-h-[280px] py-5 px-12 flex flex-col justify-evenly items-center">
           <img
             src={icon}
             alt="web-developemnt"

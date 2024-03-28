@@ -42,8 +42,12 @@
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
+  background: linear-gradient(90.13deg, #bbbebd 1.9%, #c39adf 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #6c6e6e 1.9%, #395ab4 97.5%);
+}
+
+.bg-cardbox {
+  background-color: rgb(66 66 66);  
 }
 
 .orange-text-gradient {

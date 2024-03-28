@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import /* React, */ { useState } from "react";
 import { styles } from "../styles";
 import { Link } from "react-router-dom";
 import { close, logo, menu } from "../assets";
@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} py-5 w-full flex items-center fixed top-0 z-20 bg-primary`}
+      className={`${styles.paddingX} py-5 w-full flex items-center fixed top-0 z-20 bg-success`}
     >
-      <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+      <div className="w-full flex justify-between items-center max-w-8xl mx-auto">
         <Link
           to={navigationPaths.home}
           className="flex items-center gap-2"
@@ -26,7 +26,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             {personalInfo.name} &nbsp;
             <span className="lg:block hidden">| {personalInfo.role}</span>
@@ -37,9 +37,8 @@ const Navbar = () => {
           {navLinks.map((link) => (
             <li
               key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary"
-              } text-[18px] font-medium cursor-pointer hover:text-white`}
+              className={`${active === link.title ? "text-white" : "text-secondary"
+                } text-[18px] font-medium cursor-pointer hover:text-white`}
               onClick={() => setActive(link.title)}
             >
               <a href={`#${link.id}`}>{link.title}</a>
@@ -52,6 +51,7 @@ const Navbar = () => {
             <a
               href={publicUrls.resume}
               download="Daniel Everest.pdf"
+              rel="noreferrer"
               target="_blank"
             >
               Resume
@@ -68,17 +68,15 @@ const Navbar = () => {
           />
 
           <div
-            className={`${
-              !toggle ? "hidden" : "flex"
-            } absolute top-20 right-0 black-gradient mx-4 my-2 p-6 rounded-xl z-10 min-w-[140px]`}
+            className={`${!toggle ? "hidden" : "flex"
+              } absolute top-20 right-0 black-gradient mx-4 my-2 p-6 rounded-xl z-10 min-w-[140px]`}
           >
             <ul className="list-none flex flex-col gap-4 justify-end items-start">
               {navLinks.map((link) => (
                 <li
                   key={link.id}
-                  className={`${
-                    active === link.title ? "text-white" : "text-secondary"
-                  } text-[18px] font-medium cursor-pointer hover:text-white`}
+                  className={`${active === link.title ? "text-white" : "text-secondary"
+                    } text-[18px] font-medium cursor-pointer hover:text-white`}
                   onClick={() => {
                     setActive(link.title);
                     setToggle(!toggle);
@@ -94,6 +92,7 @@ const Navbar = () => {
                 <a
                   href={publicUrls.resume}
                   download="Daniel-Everest-Resume.pdf"
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Resume
